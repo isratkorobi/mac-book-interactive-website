@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- main section added -->
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="w-75 m-auto">
+                            <img src="image/mac.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+
+                        <div>
+                            <h2>Customize your Blue 24-inch iMac with Apple M1 chip</h2>
+                            <p>Apple M1 chip with8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU,
+                                and
+                                16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/USB 4 ports
+                                Magic
+                                Mouse Magic Keyboard-US English</p>
+                        </div>
+                        <!-- mac memory  -->
+                        <div class="mt-5">
+                            <h3>Memory</h3>
+                            <button id="memory-8gb-button" type="button" class="btn btn-outline-dark">8GB unified
+                                memory</button>
+                            <button id="memory-16gb-button" type="button" class="btn btn-secondary">16GB unified
+                                memery</button>
+                        </div>
+                        <!-- mac-storage -->
+                        <div class="mt-5">
+                            <h3>Storage</h3>
+                            <button id="first-storage" type="button" class="btn btn-outline-dark">256GB SSD
+                                storage</button>
+                            <button id="second-storage" type="button" class="btn btn-secondary">512GB SSD
+                                storage</button>
+                            <button id="third-storage" type="button" class="btn btn-secondary">1TB SSD storage</button>
+                        </div>
+                        <!-- mac-delivery-option -->
+                        <div class="mt-5">
+                            <h3>Choose your delivery option</h3>
+                            <button id="first-delivery" type="button" class="btn btn-outline-dark">Friday,Aug 25 FREE
+                                Prime
+                                Delivery</button>
+                            <button id="second-delivery" type="button" class="btn btn-secondary ">Friday,Aug 21 Delivery
+                                charge
+                                $20</button>
+                        </div>
+
+                        <!--------------Pricing section------------->
+
+                        <div class="row mt-5">
+                            <div class="d-flex border-bottom p-2">
+                                <div class="col-md-8">
+                                    <h5>Best Price
+                                    </h5>
+                                </div>
+                                <div class="col-md-4">
+                                    <h5>$<span id="best-price">1299</span></h5>
+                                </div>
+                            </div>
+
+                            <div class="d-flex border-bottom p-2">
+                                <div class="col-md-8">
+                                    <h5>Extra Memory Cost
+                                    </h5>
+                                </div>
+                                <div class="col-md-4">
+                                    <h5>$<span id="memory-cost">0</span></h5>
+                                </div>
+                            </div>
+
+                            <div class="d-flex border-bottom p-2">
+                                <div class="col-md-8">
+                                    <h5>Extra Storage Cost
+                                    </h5>
+                                </div>
+                                <div class="col-md-4">
+                                    <h5>$<span id="storage-cost">0</span></h5>
+                                </div>
+                            </div>
+
+                            <div class="d-flex border-bottom border-3 p-2">
+                                <div class="col-md-8">
+                                    <h5>Delivery Charge
+                                    </h5>
+                                </div>
+                                <div class="col-md-4">
+                                    <h5>$<span id="delivery-charge">0</span></h5>
+                                </div>
+                            </div>
+
+                            <div class="d-flex border-bottom border-3 p-2">
+                                <div class="col-md-8">
+                                    <h5>Total Price
+                                    </h5>
+                                </div>
+                                <div class="col-md-4">
+                                    <h5>$<span id="total">0</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- pricing-section end -->
+                        <!-- promocode start -->
+                        <div class="mt-5">
+                            <h3>Add Promo Code</h3>
+                            <div class="input-group mb-3">
+                                <input id="promo-input" type="text" placeholder="type 'stevekaku'">
+                                <button id="applyButton" onclick="promoCode()"
+                                    class="btn btn-success py-2 px-4">Apply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <!-- main section add -->
+    <!-- footer section add -->
+    <footer>
+        <div class="w-75 m-auto">
+            <hr>
+        </div>
+        <div class="text-center">
+            <h2>Total:$<span id="grandtotal-price">1299</span></h2>
+        </div>
+    </footer>
+    <!-- footer section end -->
+    <script src="js/mac.js"></script>
+</body>
+
+</html>
